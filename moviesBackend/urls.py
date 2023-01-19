@@ -20,4 +20,3 @@ urlpatterns = [
     path('movies/', include('movies.urls')),
     path("admin/", admin.site.urls),
 ]
-print(include('movies.urls'))
