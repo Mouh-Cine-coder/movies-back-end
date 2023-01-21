@@ -1,7 +1,10 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from rest_framework import generics
+from . import serializers
+from . import models
 
 # Create your views here.
 
-def index(request):
-    return HttpResponse("hello world !")
+class MovieView(generics.CreateAPIView):
+    queryset = models.Movie.objects.all()
+    serializer_class = serializers.MovieSerializer

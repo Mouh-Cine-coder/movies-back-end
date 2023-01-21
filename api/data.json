@@ -1,0 +1,11 @@
+{
+    "movie_name": "avengers",
+    "review": 5,
+    "description": "The Avengers are a team of superheroes appearing in American comic books published by Marvel Comics",
+    "date_published": "2O12-05-02" ,
+    "director": [
+        {"first_name": "Anthony", "last_name": "Russo"},
+        {"first_name": "Joe", "last_name": "Russo"},
+        {"first_name": "Joss", "last_name": "Whedon"}
+    ]
+}
